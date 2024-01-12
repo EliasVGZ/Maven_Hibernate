@@ -14,7 +14,7 @@
                  El nombre de usuario y la contraseña son las cuentas para acceder a la base de datos.
          -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/empresa</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sakila</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
         <!-- 2, Pantalla de configuración sql  -->
@@ -45,7 +45,7 @@
         <!--  7a, Configure el archivo de mapeo entre JavaBean y la tabla  -->
         <!--   Tenga en cuenta que los nombres de los paquetes separados por barras no por puntos  -->
         <!-- modelos -->
-        <mapping class="org.example.Empleado"/>
+        <!--<mapping class="org.example.Empleado"/> -->
 
         <!--  7b,Usando JPA- Configure el archivo de mapeo entre JavaBean y la tabla
             Tenga en cuenta que los nombres de los paquetes separados por puntos
